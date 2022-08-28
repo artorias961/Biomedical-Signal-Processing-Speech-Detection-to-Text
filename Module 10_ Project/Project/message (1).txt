@@ -1,0 +1,149 @@
+```
+% upd = upside down
+
+Letter1 = "ae"; % cat
+f_ch1_start_ae = 755; 
+f_ch1_end_ae = 881;
+f_ch2_start_ae = 1464;
+f_ch2_end_ae = 1576;
+t_start_ae = 2.528;
+t_end_ae = 2.667;
+
+Letter2 = "eI"; % Day
+f_ch1_start_eI = 435;
+f_ch1_end_eI = 513;
+t_start_eI = 3.168; 
+t_end_eI = 3.296;
+
+Letter3 = "e"; % men
+f_ch1_start_e = 557;
+f_ch1_end_e = 596;
+t_start_e = 2.926;
+t_end_e = 3.056;
+
+Letter4 = "aI"; % my
+f_ch1_start_aI = 223;
+f_ch1_end_aI = 260;
+f_ch2_start_aI = 567;
+f_ch2_end_aI = 624;
+f_ch3_start_aI = 707; 
+f_ch3_end_aI = 754;
+f_ch4_start_aI = 1090;
+f_ch4_end_aI = 1139;
+t_start_aI = 2.598;
+t_end_aI = 2.846;
+
+% need to check
+Letter5 = "updA"; % not
+f_ch1_start_updA = 482; 
+f_ch1_end_updA = 533;
+f_ch2_start_updA = 540;
+f_ch2_end_updA = 662;
+t_start_updA = 2.72;
+t_end_updA = 2.86;
+
+% Letter 6 is also different
+% still need to do the other time channels
+Letter6 = "upd \omega"; % book
+f_ch1_start_updOmega = 156;
+f_ch1_end_updOmega = 405;
+t_start_updOmega = 1.14626;
+t_end_updOmega = 1.14976;
+t_start_ch2_updOmega = 1.15326;
+t_end_ch2_updOmega = 1.15676;
+
+Letter7 = "\lambda"; % but
+f_ch1_start_lambda = 480; 
+f_ch1_end_lambda = 619;
+t_start_lambda = 2.605;
+t_end_lambda = 2.743;
+
+
+% Need to check letter 9 its different 
+Letter8 = "u:"; % too
+f_ch1_start_uColon = 139; 
+f_ch1_end_uColon = 440;
+f_ch2_start_uColon = 170; 
+f_ch2_end_uColon = 276;
+t_start_uColon = 1.3397;
+t_end_uColon = 1.767;
+
+Letter9 = "cI"; % boy
+f_ch1_start_cI = 392; 
+f_ch1_end_cI = 440;
+f_ch2_start_cI = 440;
+f_ch2_end_cI = 494;
+t_start_cI = 2.692;
+t_end_cI = 2.804;
+t_start_ch2_cI = 2.862;
+t_end_ch2_cI = 3.012;
+
+Letter10 = "AupdOmega"; % how
+f_ch1_start_AupdOmega = 533; 
+f_ch1_end_AupdOmega = 593;
+f_ch2_start_AupdOmega = 706;
+f_ch2_end_AupdOmega = 752;
+t_start_AupdOmega = 2.502;
+t_end_AupdOmega = 2.876;
+
+Letter11 = "upd e"; % America
+f_ch1_start_updE = 545; 
+f_ch1_end_updE = 598;
+f_ch2_start_updE = 536;
+f_ch2_end_updE = 603;
+t_start_upde = 3.105;
+t_end_upde = 3.2165;
+
+Letter12 = "eupdE"; % wear
+f_ch1_start_eupdE = 498; 
+f_ch1_end_epdE = 572;
+f_ch2_start_epdE = 545;
+f_ch2_end_epdE = 614;
+t_start_eupdE = 2.439; 
+t_end_eupdE = 2.581;
+
+Letter13 = "aColon"; % part
+f_ch1_start_aColon = 508; 
+f_ch1_end_aColon = 547;
+t_start_aColon = 2.974;
+t_end_aColon = 3.065;
+
+Letter14 = "epsilonColon"; % word
+f_ch1_start_epsilonColon = 461; 
+f_ch1_end_epsilonColon = 537;
+t_start_epsilonColon = 2.304;
+t_end_epsilonColon = 2.588;
+
+Letter15 = "cColon"; % sort
+f_ch1_start_cColon = 425; 
+f_ch1_end_cColon = 465;
+t_start_cColon = 3.2655 
+t_end_cColon = 3.36605;
+
+Letter16 = "Iupde"; % here
+f_ch1_start_Iupde = 112; 
+f_ch1_end_Iupde = 162;
+f_ch2_start_Iupde = 227; 
+f_ch2_end_Iupde = 292;
+f_ch3_start_Iupde = 344; 
+f_ch3_end_Iupde = 394;
+f_ch4_start_Iupde = 448; 
+f_ch4_end_Iupde = 511;
+t_start_Iupde = 1.735; 
+t_end_Iupde = 1.776;
+t_start_ch2_Iupde = 1.87; % for the highest range
+t_end_ch2_Iupde = 1.886;
+
+Letter17 = "updOmegaE"; % tour
+f_ch1_start_updOmegaE = 293; 
+f_ch1_end_updOmegaE = 364;
+t_start_updOmegaE = 2.6026; 
+t_end_updOmegaE = 2.7193;
+
+Letter18 = "eupdOmega"; % go
+f_ch1_start_eupdOmega = 453;
+f_ch1_end_eupdOmega = 507;
+t_start_eupdOmega = 2.261; 
+t_end_eupdOmega = 2.4801;
+```
+okie dokie im dead, the time domain is there and frequency as well
