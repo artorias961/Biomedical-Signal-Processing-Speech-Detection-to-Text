@@ -1,7 +1,8 @@
-
 # Biomedical Signal Processing – Speech Detection to Text
 
-This repository contains coursework and a capstone project for biomedical signal processing, implemented in MATLAB. The material progresses from foundational signal concepts to a final project that performs speech detection and phoneme-level transcription using classical digital signal processing techniques.
+This repository contains coursework and a capstone project for **Biomedical Signal Processing**, implemented in MATLAB. The material progresses from foundational signal processing concepts to a final project that performs **speech detection and phoneme-level transcription** using **classical digital signal processing (DSP) techniques** rather than machine learning.
+
+Presented is a deterministic speech-to-text system that processes recorded speech through signal conditioning, segmentation, and time–frequency analysis using the Short-Time Fourier Transform (STFT). Spectrogram-based features are compared against a stored phoneme template bank using sliding-window correlation and similarity metrics to generate a sequential phoneme-based text output. The project emphasizes transparency, interpretability, and core DSP principles, serving as both an educational tool and a functional proof of concept.
 
 
 
@@ -54,9 +55,9 @@ Review materials covering core digital signal processing topics.
 
 
 
-## Module 10 – Speech Detection to Text (Project)
+## Module 10 – Speech Detection to Text 
 
-Module 10 contains a MATLAB-based speech detection and phoneme recognition system. The system processes audio recordings and outputs a sequence of phoneme labels using deterministic DSP methods.
+Module 10 contains a MATLAB-based speech detection and phoneme recognition system that integrates concepts developed throughout the course.
 
 ### Directory Structure
 
@@ -84,10 +85,11 @@ Module 10_ Project/
 
 ## Tools and Methods
 
-- MATLAB
-- Digital Signal Processing
-- Spectral Analysis (FFT, STFT)
-- Correlation Analysis
-- FIR and IIR Filtering
+- MATLAB  
+- Digital Signal Processing  
+- Spectral Analysis (FFT, STFT)  
+- Correlation Analysis  
+- FIR and IIR Filtering  
+
 
 
